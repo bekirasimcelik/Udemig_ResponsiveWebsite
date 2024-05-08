@@ -83,3 +83,49 @@ header {
     color: #fff;
     text-transform: uppercase;
 }
+
+/** MAIN PAGE */
+.inner_mainpage {
+    display: flex;
+    align-items: center;
+    /* Birbirine eşit aralıklarla ortala */
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+
+.child_mainpage {
+    /* responsive tasarımda mobil görünüm için daha rahat bir tasarım oluyor */
+    flex-basis: 45%;
+}
+
+.child_mainpage h1 {
+    font-size: 50px;
+    color: #24caac;
+}
+
+.span_child {
+    color: #e0376f;
+}
+
+.child_mainpage p {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    background: #24caac;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #24caac;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: transparent;
+    letter-spacing: 2px;
+}
