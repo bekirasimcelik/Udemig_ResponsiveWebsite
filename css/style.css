@@ -129,3 +129,151 @@ header {
     background: transparent;
     letter-spacing: 2px;
 }
+
+/** Yazilim Area */
+
+.innersoftware {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.innersoftware_child {
+    /* Daha güzel responsive bir görünüm için */
+    flex-basis: 31%;
+    color: #fff;
+    padding: 25px 20px;
+    background: rgba(55, 66, 80, 0.281);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+
+.innersoftware_child:hover {
+    border: 1px solid #24caac;
+}
+
+.innersoftware_child .icon {
+    font-size: 25px;
+    color: #24caac;
+}
+
+.innersoftware_child h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.innersoftware_child p {
+    font-size: 16px;   
+}
+
+/** Sertifikalar */
+
+.inner_courses {
+    display: flex;
+    /* Flex Wrap sayesinde ekran küçüldüğü zaman içindeki elementler aşağı inerek yine ekran içinde kalmaya devam eder */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child_courses {
+    flex-basis: 24%;
+    color: #fff;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.child_courses:hover {
+    border: 1px solid #24caac;
+}
+
+.child_courses .detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child_courses .detail ul {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.child_courses img {
+    width: 100%;
+    height: 150px;
+}
+
+.child_courses .detail ul li {
+    color: gold;
+}
+
+/** BASARILAR */
+
+.inner_achivement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child_achivement {
+    flex-basis: 40%;
+}
+
+.child_achivement img {
+    height: 100%;
+    width: 100%;
+    /* Verilen ölçüye göre boyutlandırıp kırpar */
+    object-fit: cover;
+}
+
+.child_achivement2 {
+    flex-basis: 46%;
+    display: flex;
+    /* Alan bittiğinde aşağıya al elementi */
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.single_detail {
+    flex-basis: 48%;
+    padding: 40px 30px;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;   
+}
+
+.single_detail:hover {
+    transform: scale(1.03);
+}
+
+.sd_1 {
+    background: #EAA023;
+    margin-bottom: 20px;
+}
+
+.sd_2 {
+    background: #E91E63;
+    margin-bottom: 20px;
+}
+
+.sd_3 {
+    background: #24caac;
+    margin-bottom: 20px;
+}
+
+.sd_4 {
+    background: #2F363E;
+    margin-bottom: 20px;
+}
